@@ -16,7 +16,7 @@ export default function LandingPage() {
           </Link>
         </div>
         <div className="flex items-center gap-2 md:gap-4 shrink-0">
-          <Link href="/login" className="text-xs md:text-sm font-medium text-muted-foreground hover:text-foreground transition-colors hidden sm:block">
+          <Link href="/login" className="text-xs md:text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Log in
           </Link>
           <Link href="/signup" className="text-xs md:text-sm font-medium bg-primary text-primary-foreground px-3 py-1.5 md:px-4 md:py-2 rounded-full hover:bg-primary/90 transition-colors">
