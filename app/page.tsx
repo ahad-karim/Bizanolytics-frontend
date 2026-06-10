@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
+    <div className="min-h-screen overflow-x-hidden bg-background text-foreground selection:bg-primary/30">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 md:px-6 py-3 md:py-4 backdrop-blur-md border-b border-border/50 bg-background/50">
         <div className="flex items-center shrink-0">
